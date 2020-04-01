@@ -15,11 +15,11 @@ function main(argv) {
         process.exit(1);
     }
 
-    aops24(numbers);
+    game(numbers);
 }
 
 
-function aops24(numbers) {
+function game(numbers) {
     for (let index1 of [ 0, 1, 2, 3 ]) {
         let index2 = parseInt(index1 + 1);
         while (index2 <= 3) {
