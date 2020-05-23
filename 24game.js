@@ -8,8 +8,8 @@ var solutions = [];
 main(process.argv);
 
 
-function main(argv) {
-    let numbers = process.argv.splice(2);
+function main(args) {
+    let numbers = process.args.splice(2);
     if (numbers.length !== 4) {
         console.log('Please pass in the four numbers for the game!');
         process.exit(1);
